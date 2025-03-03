@@ -11,8 +11,8 @@ const HeroSection = () => {
   return (
     <>
       <div>
-        <div className="">
-          <div className="flex items-center flex-col border-[#1b1b21] border-2 mt-16 m-10 gap-1 border-dashed relative">
+        <div className="pt-10">
+          <div className="flex items-center flex-col border-[#1b1b21] border-2 gap-1 border-dashed relative">
             {/* Top-left corner */}
 
             <div className="flex flex-col md:flex-row justify-evenly gap-3">
@@ -24,7 +24,7 @@ const HeroSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-col gap-8">
-          <div className="text-size-regular w-[500px] text-center text-[8a8c9f]">
+          <div className="text-size-regular lg:w-[500px] text-center text-[8a8c9f]">
             Tellus orci sed gravida lectus. Aliquam nunc praesent et scelerisque
             id turpis. Sit quis fusce eget nisl vel eu. Amet habitasse arcu
             blandit duis quam venenatis purus lacus.
@@ -82,8 +82,8 @@ const HeroSection = () => {
               </div>
               <BorderBeam duration={10} />
 
-              <div className="lg:h-[50rem] h-56 transition-all duration-300 opacity-0 group-hover:opacity-100 w-[30rem] top-1 left-1/2 transform -translate-x-1/2 blur-[300px] bg-[#7f25fb] absolute -z-10"></div>
-              <div className="lg:h-[50rem] h-56 transition-all duration-300 opacity-0 group-hover:opacity-100 w-[30rem] top-1 left-1/2 transform -translate-x-1/2 blur-3xl bg-[#7f25fb] absolute -z-10"></div>
+              <div className="lg:h-[50rem] h-56 transition-all duration-300 opacity-0 group-hover:opacity-100 lg:w-[30rem] top-1 left-1/2 transform -translate-x-1/2 blur-[300px] bg-[#7f25fb] absolute -z-10"></div>
+              <div className="lg:h-[50rem] h-56 transition-all duration-300 opacity-0 group-hover:opacity-100 lg:w-[30rem] top-1 left-1/2 transform -translate-x-1/2 blur-3xl bg-[#7f25fb] absolute -z-10"></div>
             </div>
           </div>
 
