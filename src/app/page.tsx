@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import { BorderBeam } from "@/components/ui/custom/Button-beam";
 import FeaturesSection from "@/components/ui/custom/features-section";
 import FeaturesSection2 from "@/components/ui/custom/features-section-2";
 import FeaturesSection3 from "@/components/ui/custom/features-section-3";

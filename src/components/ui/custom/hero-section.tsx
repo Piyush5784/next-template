@@ -4,8 +4,6 @@ import { motion } from "motion/react";
 import Marquee from "react-fast-marquee";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { AiFillGoogleCircle } from "react-icons/ai";
-import { FaGoogle } from "react-icons/fa";
 import { BorderBeam } from "./Button-beam";
 
 const HeroSection = () => {

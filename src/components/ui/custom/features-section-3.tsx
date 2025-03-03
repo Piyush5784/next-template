@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 import VerticalCarousel from "./vertical-section";
-import { BeamBetweenButtons, BorderBeam } from "./Button-beam";
-import { motion } from "motion/react";
 import IntegrationsCards from "./inteaction-cards";
 
 const FeaturesSection3 = () => {
